@@ -183,6 +183,7 @@ margin-right: 38px;
 
 .about-item {
   text-align: center;
+  flex-basis: calc((100% - 142px) / 3);
 }
 
 .about-icon-wrap {
