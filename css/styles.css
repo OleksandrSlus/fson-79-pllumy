@@ -1,0 +1,65 @@
+:root {
+  --accent-color: #28a745;
+  --primary-text-color: #333333;
+  --secondary-text-color: #ffffff;
+  --main-bg-color: #ffffff;
+}
+
+/* base */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-text-color);
+  font-size: 18px;
+  background-color: var(--main-bg-color);
+}
+
+/* reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+/* a */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ul */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* components */
+.container {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+/* header */
+.header {
+  background-color: #5e5e5e;
+}
+
+.nav-link {
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
