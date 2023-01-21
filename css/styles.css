@@ -47,6 +47,19 @@ address {
   font-style: normal;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* components */
 .container {
   width: 1360px;
@@ -150,4 +163,47 @@ margin-right: 38px;
   display: inline-flex;
   align-items: center;
   gap: 5px;
+}
+
+/* =====ABOUT========== */
+.about {
+  background-color: #f4f4f4;
+  padding-top: 40px;
+  padding-bottom: 19px;
+}
+.about .container {
+  padding-left: 66px;
+  padding-right: 66px;
+}
+
+.about-list {
+  display: flex;
+  gap: 71px;
+}
+
+.about-item {
+  text-align: center;
+}
+
+.about-icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  width: 67px;
+  height: 67px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+}
+.about-text {
+  line-height: 1.56;
 }
