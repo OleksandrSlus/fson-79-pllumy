@@ -251,3 +251,36 @@ margin-right: 38px;
   padding: 11px 27px 12px 42px;
   display: inline-block;
 }
+
+/* ----cses ----*/
+.cases {
+  padding-top: 50px;
+  padding-bottom: 48px;
+  text-align: center;
+}
+.cases-sub-title {
+
+font-size: 20px;
+line-height: 1.65;
+margin-bottom: 15px;
+}
+.cases-title {
+font-weight: 300;
+font-size: 38px;
+line-height: 1.26;
+margin-bottom: 34px;
+}
+.cases-descr {
+line-height: 1.56;
+margin-bottom: 39px;
+}
+.cases-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px 8px;
+}
+.list {
+}
+.cases-item {
+  flex-basis: calc((100% - 24px) / 4);
+}
