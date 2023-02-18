@@ -1,0 +1,22 @@
+.slick {
+  padding: 200px 0;
+}
+
+.slick-wrapper {
+  background-color: #5e5e5e;
+  padding: 50px 0;
+}
+
+.slick-wrapper:not(:last-child) {
+  margin-right: 15px;
+}
+
+.my-slick-prev {
+  background-color: aqua;
+  margin-bottom: 40px;
+}
+
+.slick-title {
+  color: #ffffff;
+  padding: 0 20px;
+}
